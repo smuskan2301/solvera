@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f8f4ed">
+  <meta name="description" content="SOLVÉRA — thoughtful beauty for every skin, every day. Your Skin. Your Ritual.">
+  <title>SOLVÉRA — Your Skin. Your Ritual.</title>
+  <link rel="preconnect" href="https://images.unsplash.com">
+  <link rel="stylesheet" href="style.css">
+  <script defer src="products.js"></script>
+  <script defer src="script.js"></script>
+</head>
+<body>
+  <div class="announcement">A little ritual, a lovely start — complimentary shipping on orders over ₹1,499</div>
+  <header class="site-header">
+    <button class="icon-btn mobile-menu" aria-label="Open menu" id="menuToggle">☰</button>
+    <a class="wordmark" href="#home" aria-label="SOLVÉRA home">SOLVÉRA<span>YOUR SKIN. YOUR RITUAL.</span></a>
+    <nav class="main-nav" id="mainNav" aria-label="Main navigation">
+      <a href="#shop">Shop all</a><a href="#shop?category=Skincare">Skincare</a><a href="#shop?category=Makeup">Makeup</a><a href="#shop?category=Body%20Care">Body care</a><a href="#routines">Rituals</a><a href="#journal">Journal</a>
+    </nav>
+    <div class="header-actions">
+      <button class="icon-btn" id="searchToggle" aria-label="Search products">⌕</button>
+      <a class="icon-btn" href="#wishlist" aria-label="Wishlist">♡</a>
+      <a class="icon-btn account-link" href="#about" aria-label="About SOLVÉRA">♙</a>
+      <a class="cart-link" href="#cart" aria-label="Shopping cart">Bag <span id="cartCount">0</span></a>
+    </div>
+  </header>
+  <div class="search-strip hidden" id="searchStrip"><label for="globalSearch">Find your next favourite</label><input id="globalSearch" type="search" placeholder="Search cleanser, serum, lipstick…"><button class="btn btn-dark" id="searchGo">Search</button><button class="icon-btn" id="searchClose" aria-label="Close search">×</button></div>
+  <main id="app" tabindex="-1"></main>
+  <footer class="site-footer">
+    <div class="footer-top">
+      <div class="footer-brand"><a class="wordmark" href="#home">SOLVÉRA<span>YOUR SKIN. YOUR RITUAL.</span></a><p>Thoughtful formulas. Everyday rituals. Beauty that feels like you.</p><form id="footerNewsletter" class="newsletter-form"><label for="footerEmail">Notes from our world</label><div><input type="email" id="footerEmail" required placeholder="Your email address"><button class="btn btn-dark" type="submit">Join us</button></div><small id="newsletterMsg" aria-live="polite">Occasional inspiration, never inbox clutter.</small></form></div>
+      <div><h3>Explore</h3><a href="#shop">Shop all</a><a href="#finder">Beauty finder</a><a href="#routines">Rituals & bundles</a><a href="#journal">Beauty journal</a></div>
+      <div><h3>We're here</h3><a href="#contact">Contact us</a><a href="#faq">FAQs</a><a href="#shipping">Shipping & returns</a><a href="#about">Our philosophy</a></div>
+      <div><h3>The details</h3><a href="#privacy">Privacy policy</a><a href="#terms">Terms & conditions</a><p class="footer-note">Made for every face, every pace.</p></div>
+    </div>
+    <div class="footer-bottom"><span>© 2026 SOLVÉRA · Fictional demo brand</span><span>India · Prices in INR</span><span>Secure demo checkout · No real payments</span></div>
+  </footer>
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+</body>
+</html>
